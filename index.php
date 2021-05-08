@@ -27,14 +27,13 @@
     <input type="text" id="lname" name="lname">
     <h3 id="channel"></h3><br>
     <h3 id="frequency"></h3><br>
- 
-    <button id="next-1" class="next">
-      <a href="#" class=" next" id="next-1" style="color: white">Next</a></button>
+    <input type ="submit" value ="Log" id="submit" class="success">
+   
   </form>
 
   <script>
  $(document).ready(function(){
-  $("#next-1").click(function(e){
+  $("#submit").click(function(e){
     e.preventDefault();
     var details={
       deviceId:$("#fname").val()
