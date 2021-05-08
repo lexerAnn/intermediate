@@ -40,7 +40,7 @@
       deviceId:$("#fname").val()
     }
     $.ajax({
-		url:('http://127.0.0.1:8000/api/spectrum_use'),
+		url:('https://tvwsgeolocationdb.herokuapp.com/api/spectrum_use'),
 		method:'post',
 		dataType: 'json',
 		data:details,
