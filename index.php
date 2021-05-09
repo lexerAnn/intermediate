@@ -25,8 +25,8 @@
     <input type="text" id="fname" name="fname"><br>
     <label for="lname">Last name:</label><br>
     <input type="text" id="lname" name="lname">
-    <h3 id="channel"></h3><br>
-    <h3 id="frequency"></h3><br>
+    <h3 id="channel">-</h3><br>
+    <h3 id="frequency">-</h3><br>
     <input type ="submit" value ="Log" id="submit" class="success">
    
   </form>
